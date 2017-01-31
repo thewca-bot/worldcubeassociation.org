@@ -1021,9 +1021,73 @@ hu:
     edit_registration:
       #original_hash: 2d15eae
       title: '%{person} a(z) %{comp} versenyre'
+    mailer:
+      #original_hash: 72e2180
+      regards: 'Üdvözlettel: %{people}.'
+      new:
+        #original_hash: 6fb638c
+        mail_subject: 'Regisztráltál a(z) %{comp_name} elnevezésű versenyre'
+        #original_hash: 8374583
+        registered_html: 'Regisztráltál a(z) %{comp_name} elnevezésű versenyre.'
+        #original_hash: 9238412
+        on_waiting_list: >-
+          Jelenleg a várólistán vagy, ahol összesen %{n_total} %{people}
+          található.
+        #original_hash: f5b00be
+        approval_info_html: >-
+          E-mailben értesítünk ha a regisztrációd el lesz fogadva. Kérlek vedd
+          figyelembe, hogy a regisztrációk elfogadása nem automatikus. A
+          regisztrációk elfogadásának feltételeit megtalálod a verseny honlapján
+          vagy vedd fel a kapcsolatot a szervezőkkel. A regisztrációd státuszát
+          megnézheted %{here} is.
+      accepted:
+        #original_hash: 34515b5
+        mail_subject: >-
+          A regisztrációd a(z) %{comp_name} elnevezésű versenyre el lett
+          fogadva.
+        #original_hash: 24d2883
+        message_html: >-
+          A regisztrációd a(z) %{comp_name} elnevezésű versenyre el lett
+          fogadva. Mint mindig, a regisztrációd státuszát megtalálod %{here}.
+        #original_hash: 1852cbf
+        see_you_soon: 'Találkozunk a(z) %{comp_name} elnevezésű versenyen!'
+      pending:
+        #original_hash: e48d8bd
+        mail_subject: 'A(z) %{comp_name} elnevezésű versenyen a várólistára kerültél.'
+        #original_hash: 6fd0a8e
+        moved_html: >-
+          A(z) %{comp_name} elnevezésű versenyen a várólistára kerültél. Ennek
+          lehetséges okai:
+        causes:
+          #original_hash: eadfc0d
+          accepted: A regisztrációd véletlenül lett elfogadva
+          #original_hash: 2ac6d84
+          withdrawal: A regisztrációs díj visszafizetését kérted
+        #original_hash: 8f7358f
+        email_if_error: >-
+          Ha úgy gondolod, hogy ez hibásan történt, kérlek, hogy válaszolj erre
+          az e-mailre.
+      deleted:
+        #original_hash: 268e248
+        mail_subject: 'A regisztrációd a(z) %{comp_name} elnevezésű versenyről törölve lett'
+        #original_hash: f66ae63
+        message_html: >-
+          A regisztrációd a(z) %{comp_name} elnevezésű versenyről törölve lett.
+          Ennek lehetséges okai:
+        causes:
+          #original_hash: 978944c
+          missing_info: Nem adtál meg minden szükséges adatot
+          #original_hash: 788f2ec
+          incomplete: >-
+            Nem teljesítetted a regisztráció feltételeit (például: nem fizetted
+            be a regisztrációs díjat a határidőig)
+          #original_hash: 1e225f0
+          registrations_full: Elértük a versenyzői limitet és nincs több szabad helyünk
+          #original_hash: 0d4cce9
+          multiple_registrations: Kétszer vagy többször regisztráltál
     list:
       #original_hash: 8b7631c
-      title: 'Regisztrációk a(z) %{comp} versenyre'
+      title: 'Regisztrációk a(z) %{comp} elnevezésű versenyre'
       #original_hash: 5301648
       edit: Szerkesztés
       #original_hash: 0ab725c
