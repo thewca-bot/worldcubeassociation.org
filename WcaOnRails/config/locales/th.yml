@@ -2080,6 +2080,15 @@ th:
         href="%{dob_form_path}">แบบฟอร์มเฉพาะนี้</a>
       #original_hash: 92aa857
       unknown_wca_id_html: 'ไม่มี WCA ID %{link_id}'
+  user_roles:
+    email:
+      role_metadata:
+        #original_hash: bfc2c7c
+        region_name: ชื่อภูมิภาค
+        #original_hash: bae7d5b
+        status: สถานะ
+        #original_hash: 8970f0e
+        locale: สถานที่
   user_groups:
     group_types:
       #original_hash: abd2828
