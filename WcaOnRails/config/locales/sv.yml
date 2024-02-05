@@ -2172,6 +2172,15 @@ sv:
         formulär</a>.
       #original_hash: 92aa857
       unknown_wca_id_html: 'WCA-ID %{link_id} finns inte.'
+  user_roles:
+    email:
+      role_metadata:
+        #original_hash: bfc2c7c
+        region_name: Regionens namn
+        #original_hash: bae7d5b
+        status: Status
+        #original_hash: 8970f0e
+        locale: Språk
   user_groups:
     group_types:
       #original_hash: abd2828
