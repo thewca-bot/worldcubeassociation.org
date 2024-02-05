@@ -2191,6 +2191,15 @@ pt:
         href="%{dob_form_path}">este formulário</a>.
       #original_hash: 92aa857
       unknown_wca_id_html: 'ID da WCA %{link_id} não existe.'
+  user_roles:
+    email:
+      role_metadata:
+        #original_hash: bfc2c7c
+        region_name: Nome da Região
+        #original_hash: bae7d5b
+        status: Estado
+        #original_hash: 8970f0e
+        locale: Locale
   user_groups:
     group_types:
       #original_hash: abd2828
