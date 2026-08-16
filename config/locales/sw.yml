@@ -1,1 +1,253 @@
-{}
+countries:
+  AG: Antigua na Barbuda
+  BA: Bosnia na Herzegovina
+  CD: Jamuhuri ya Kidemokrasia ya Kongo
+  CG: Jamhuri ya Kongo
+  CI: Jamhuri ya Ivory Coast
+  CV: Kepuvede
+  FM: Mikronesia
+  GW: Guinea Bisau
+  HK: Hong Kong, Uchina
+  KN: Saint Kitts na Nevis
+  KP: Korea Kaskazini
+  KR: Jamhuri ya korea
+  LC: Saint Lucia
+  MK: Masedonia Kaskazini
+  MM: Myanma
+  MO: Macau, Uchina
+  PS: Palestina
+  ST: Sao Tome na Principe
+  SZ: Eswatini
+  TT: Trinidad na Tobago
+  TW: Taipei ya China
+  XM: Nchi mbalimbali (Amerika)
+  XA: Nchi mbalimbali (Asia)
+  XE: Nchi mbalimbali (Ulaya)
+  XN: Nchi Mbalimbali (Amerika kaskazini)
+  XO: Nchi mbalimbali(Ocenia)
+  XS: Nchi Mbalimbali(Amerika Kusini)
+  XW: Nchi Mbalimbali(Dunia)
+  VC: Saint Vincent na Grenadini
+  XF: Nchi nyingi (Afrika)
+continents:
+  "South America": Amerika ya Kusini
+  "Multiple Continents": Mabara mengi
+  Africa: Afrika
+  Asia: Asia
+  Europe: Ulaya
+  "North America": Amerika Kaskazini
+  Oceania: Oceania
+country_bands:
+  title: Vikundi vya Nchi vya WCA
+  band_title: Bendi asilimia{nambari)
+  due_value: Idadi ya mshidani kwa kila shindano
+events:
+  "333": Mchemraba wa 3x3x3
+  "222": Mchemraba wa 2x2x2
+  "444": Mchemraba wa 4x4x4
+  "555": Mchemraba wa 5x5x5
+  "666": Mchemraba wa 6x6x6
+  "777": Mchemraba wa 7x7x7
+  333bf: mchemraba wa 3x3x3 ukiwa umefumba macho
+  333fm: hatua chache zaidi za 3x3x3
+  333oh: kutatua mchemraba wa 3x3x3 kwa mkono mmoja
+  333ft: kutatua mchemraba wa 3x3x3 kwa miguu
+  clock: Saa
+  minx: Megaminx
+  pyram: Pyraminx
+  skewb: Skewb
+  sq1: Square-1
+  444bf: kutatua mchemraba wa 4x4x4 ukiwa umefumba macho
+  555bf: kutatua mchemraba wa 5x5x5 ukiwa umefumba macho
+  333mbf: 3x3x3 Multi-Blind
+  fto: Face Turning Octahedron
+  magic: Hirizi
+  mmagic: Master Magic
+  333mbo: Kutatua michemraba mingi ya 3x3x3 kwa kufumba macho mtindo wa zamani
+formats:
+  "1": ya kwanza bora
+  "2": ya pili bora
+  "3": tatu bora
+  "5": Tano bora
+  "a": wastani wa tano
+  "m": wastani wa tatu
+  short:
+    "1": Bo1
+    "2": B02
+    "3": Bo3
+    "5": Bo5
+    "a": Ao5
+    "m": Mo3
+    "h": H2H
+rounds:
+  "0":
+    name: raundi ya kufuzu
+    cell_name: raundi ya kufuzu
+  "1":
+    name: raundi ya kwanza
+    cell_name: Raundi ya kwanza
+  "2":
+    cell_name: Raundi ya pili
+    name: Raundi ya pili
+  "3":
+    name: Nusu Fainali
+    cell_name: Nusu fainali
+  "b":
+    name: B Fainali
+    cell_name: B Fainali
+  "c":
+    name: Finali
+    cell_name: Finali
+  "d":
+    name: raundi ya kwanza
+    cell_name: Raundi ya kwanza
+  "e":
+    name: Raundi ya pili
+    cell_name: Raundi ya pili
+  "f":
+    name: Finali
+    cell_name: Fianali
+  "g":
+    name: Nusu Fainali
+    cell_name: nusu Fainali
+  "h":
+    name: raundi ya kufuzu
+    cell_name: raundi ya kufuzu
+attempts:
+  attempt_name: Jaribio
+round:
+  title: raundi
+  round_number: Raundi{ nambari ya raundi}
+  name: '%{event_name} %{round_name}'
+scramble_set:
+  name: Seti ya mchanganyiko%{letter_code}
+  group: Kikundi%{Nambari}
+  attempt: Jaribio%{nambari}
+advancement_condition:
+  short:
+    ranking: Juu%{orodha ya viwango}
+    percent: Juu%{percent}%
+    all_advance: Wote Wanafaulu
+    attempt_result:
+      time: '%{round_format}<%{time}'
+      moves: '%{round_format}<%{moves}'
+      points: '%{round_format} > %{points}'
+  all_advance: washindani wote wamefaulu
+  ranking: Juu%{ranking}wamefaulu kwa raundi inayofuata
+  percent: Juu%{percent}% wamefaulu kwa raundi inayofuata
+  attempt_result:
+    time: '%{round_format}<%{time}wamefaulu kwa raundi inayofuata'
+    moves: '%{round_format}<%{moves} waenda kwa raundi inayofuata'
+    points: '%{round_format} > %{points} alama zinafuzu kwa raundi inayofuata'
+cutoff:
+  time:
+    one: '%{count} Jaribu kupata< %{time}'
+    other: '%{count} majaribu ya kupata < %{time}'
+  moves:
+    one: '%{count} jaribio la kupata< %{moves} hatua'
+    other: '%{count} majaribio ya kupata < %{moves} hatua'
+time_limit:
+  cumulative:
+    one_round: '%{time} mfululizo'
+    across_rounds: '%{time} jumla ya %{rounds}'
+  333fm: saa moja
+  333mbf: 10:00.00 kwa kila mchemraba, hadi 60:00.00
+qualification:
+  type_label: aina ya kufuzu
+  result_type: aina ya matokeo
+  for_event: Kufuzu kwa %{event}
+  type:
+    none: hakuna kufuzu
+    result: kwa matokeo
+    ranking: juu N
+    any_result: tokeo lolote
+  single:
+    time: Jaribio moja chini ya %{time}
+    moves: Jaribio moja chini ya %{moves} hatua
+    points: Jaribio moja zaidi ya %{points} alama
+    ranking: Juu %{ranking} kwa utatuzi mmoja
+    any_result: jaribio lolote moja
+  average:
+    time: Wastani chini ya %{time}
+    moves: Wastani chini ya %{moves} hatua
+    points: Wastani zaidi ya %{points} alama
+    ranking: Juu %{ranking} kwa wastani
+    any_result: wastani wowote
+  deadline:
+    description: mwisho wa kufuzu
+    by_date: kwa %{date}
+activity:
+  registration: usajili wa eneo la tukio
+  checkin: kujisajili
+  tutorial: Mafunzo kwa washindani wapya
+  multi: Wasilisho la mchemraba kwa ajili ya 3x3x3 Multi-Blind
+  breakfast: kiamshakinywa
+  lunch: chakula cha mchana
+  dinner: Chakula cha jioni
+  awards: Kupeana Tuzo
+  setup: Matayarisho
+  teardown: Kufunga
+  misc: Shughuli nyingine
+common:
+  world: Duniani
+  continent: bara
+  country: Eneo
+  here: hapa
+  best: Bora
+  single: Moja
+  average: wastani
+  solves: majaribio
+  hello: hujambo %{name},
+  date:
+    no_date: hakuna tarehe
+  user:
+    wca_id: Kitambulisho cha WCA
+    representing: kuwakilisha
+  all_regions: eneo zote
+  errors:
+    invalid: isiyo sahihi
+  days:
+    one: siku moja
+    other: '%{count} siku'
+  search_site: tovuti ya utafutaji
+  filter: chuja
+  delete: futa
+  date_placeholder: YYYY-MM-DD
+  datetime_placeholder: YYYY-MM-DD HH:MM
+  time_format: 12h
+  solve_time:
+    unit_seconds: sekunde
+    unit_moves: hatua
+oauth:
+  applications:
+    your_apps: Programu zako za OAuth
+    new: mpya
+    name: jina
+    callback_url: Url ya Kurejesha
+    owner: mwenyewe
+    application_id: kitambulisho cha kujisajili
+    actions: matendo
+    secret: siri
+    scopes: viwangi vya ufikiaji
+    callback_urls: Url za Kurejesha
+helpers:
+  submit:
+    competition_medium:
+      create: wasilisha picha na video
+      update: sasisha media
+activerecord:
+  attributes:
+    user:
+      name: Jina kamili
+      wca_id: kitambulisho cha WCA
+      unconfirmed_wca_id: kitambulisho cha WCA ambayo haijathibitishwa
+      login: barua pepe ama kitambulisho cha WCA
+      country_iso2: kuwakilisha
+      dob: siku ya kuzaliwa
+      dob_verification: Siku yako ya kuzaliwa
+      gender: Jinsia
+      email: barua pepe
+      password: nenosiri
+      remember_me: nikumbuke
+      pending_avatar: Weka picha mpya ya wasifu
+      remove_avatar: toa picha ya wasifu
