@@ -53,3 +53,364 @@ events:
   333oh: 3x3x3 Մի ձեռքով
   333ft: 3x3x3 Ոտքերով
   clock: Քլոք
+round:
+  round_number: Փուլ %{round_number}
+scramble_set:
+  name: Սկրամբլ սեթ %{letter_code}
+  group: Խումբ %{number}
+  attempt: Փորձ %{number}
+advancement_condition:
+  short:
+    ranking: Թոփ %{ranking}
+    percent: Թոփ %{percent}%
+    all_advance: Բոլորն անցնում են
+    attempt_result:
+      time: '%{round_format} < %{time}'
+      moves: '%{round_format} < %{moves}'
+      points: '%{round_format} > %{points}'
+  all_advance: Բոլոր մասնակիցներն անցնում են
+  ranking: Թոփ %{ranking} մասնակիցներն անցնում են հաջորդ փուլ
+  percent: Թոփ %{percent}% մասնակիցներն անցնում են հաջորդ փուլ
+  attempt_result:
+    time: '%{round_format} < %{time} անցնում են հաջորդ փուլ'
+    moves: '%{round_format} < %{moves} քայլերն անցնում են հաջորդ փուլ'
+    points: '%{round_format} > %{points} միավորներն անցնում են հաջորդ փուլ'
+cutoff:
+  time:
+    one: '%{count} փորձ ստանալ < %{time}'
+    other: '%{count} փորձ ստանալ < %{time}'
+  moves:
+    one: '%{count} փորձ ստանալ < %{moves} քայլեր'
+    other: '%{count} փորձ ստանալ < %{moves} քայլեր'
+  points:
+    one: '%{count} փորձ, որ ստանաք > %{points} միավոր'
+    other: '%{count} փորձ, որ ստանաք > %{points} միավոր'
+time_limit:
+  cumulative:
+    one_round: '%{time} գումարային'
+    across_rounds: '%{time} ընդհանուր %{rounds}'
+  333fm: 1 ժամ
+  333mbf: 10:00.00 մեկ կուբիկի համար, մինչև 60:00.00
+qualification:
+  type_label: Որակավորման Տեսակ
+  result_type: Արդյունքի Տեսակ
+  for_event: Որակավորում %{event} կատեգորիայի համար
+  type:
+    none: Որակավորում չկա
+    result: Ըստ արդյունքի
+    ranking: Թոփ N
+    any_result: Ցանկացած արդյունք
+  single:
+    time: Լավագույն արդյունքն ավելի արագ քան %{time}
+    moves: Լավագույն արդյունքը %{moves}-ից քիչ
+    points: Լավագույն արդյունքը %{points}-ից ավելի
+    ranking: Թոփ %{ranking} ըստ մեկ լավագույն արդյունքի
+    any_result: Ցանկացած մեկ արդյունք
+  average:
+    time: Միջին արդյունքն ավելի արագ քան %{time}
+    moves: Միջին արդյունքը %{moves} քայլից քիչ
+    points: Միջին արդյունքը %{points}-ից բարձր
+    ranking: Թոփ %{ranking} ըստ միջին արդյունքի
+    any_result: Ցանկացած միջին արդյունք
+  deadline:
+    description: Որակավորման Վերջնաժամկետ
+    by_date: մինչև %{date}
+activity:
+  registration: Տեղում գրանցում
+  checkin: Ներկա-բացակա
+  tutorial: Կանոններ սկսնակների համար
+  multi: 3x3x3 Multi-Blind կատեգորիայի համար կուբիկների հանձնում
+  breakfast: Նախաճաշ
+  lunch: Ճաշ
+  dinner: Ընթրիք
+  awards: Մրցանակաբաշխություն
+  setup: Նախապատրաստում
+  teardown: Դեմոնտաժ
+  misc: Այլ
+common:
+  world: Աշխարհ
+  continent: Մայրցամաք
+  country: Շրջան
+  here: այստեղ
+  best: Լավագույն
+  single: Մեկ արդյունք
+  average: Միջին
+  solves: Լուծումներ
+  hello: Ողջույն %{name},
+  date:
+    no_date: Ամսաթիվ չկա
+  user:
+    wca_id: WCA ID
+    representing: Ներկայացնում է
+  all_regions: Բոլոր շրջանները
+  errors:
+    invalid: անվավեր
+  days:
+    one: 1 օր
+    other: '%{count} օր'
+  search_site: Որոնում կայքում
+  filter: Ֆիլտր
+  delete: Ջնջել
+  date_placeholder: ՏԱՐԻ-ԱՄ-ՕՐ
+  datetime_placeholder: ՏԱՐԻ-ԱՄ-ՕՐ ԺՄ։ՐՊ
+  time_format: 24h
+  solve_time:
+    unit_seconds: վայրկյան
+    unit_moves: քայլ
+oauth:
+  applications:
+    your_apps: Ձեր OAuth հավելվածները
+    new: Նոր
+    name: Անուն
+    callback_url: Ետկանչի հղում
+    owner: Սեփականատեր
+    application_id: Հավելվածի ID
+    actions: Գործողություններ
+    secret: Գաղտնի
+    scopes: Շրջանակներ
+    callback_urls: Ետկանչի հղումներ
+helpers:
+  submit:
+    competition_medium:
+      create: Ուղարկել մեդիա
+      update: Թարմացնել մեդիան
+activerecord:
+  attributes:
+    user:
+      name: Անուն ազգանուն
+      wca_id: WCA ID
+      unconfirmed_wca_id: Չհաստատված WCA ID
+      login: Էլ․հասցե կամ WCA ID
+      country_iso2: Ներկայացնում է
+      dob: Ծննդյան օր
+      dob_verification: Ձեր ծննդյան օրը
+      gender: Սեռ
+      email: Էլ․հասցե
+      password: Գաղտնաբառ
+      password_confirmation: Վերամուտքագրել գաղտնաբառը
+      remember_me: Հիշիր ինձ
+      pending_avatar: Բեռնել նոր ավատար
+      remove_avatar: Հեռացնել ավատարը
+      results_notifications_enabled: Ուղարկեք ինձ էլ․նամակ երբ արդյունքները 
+        հրապարակվեն։
+      registration_notifications_enabled: Ուղարկեք ինձ էլ․նամակ նոր գրանցումների
+        դեպքում երբ ես կազմակերպում կամ պատվիրակում եմ առաջնությունը։
+      delegate_status: Պատվիրակի կարգավիճակ
+      location: Վայր
+      region: Շրջան
+      subRegion: Ենթաշրջան
+      receive_developer_mails: Ես ցանկանում եմ ստանալ ծանուցումներ WCA ծրագրային
+        ռեսուրսների փոփոխությունների վերաբերյալ
+      receive_delegate_reports: Ես ցանկանում եմ ստանալ WCA առաջնությունների 
+        մասին պատվիրակները զեկույցները էլ․նամակով
+      delegate_reports_region: Ես ցանկանում եմ ստանալ միայն այս շրջանի 
+        Պատվիրակների զեկույցները
+      user_preferred_events: Նախընտրելի կատեգորիաներ
+      otp_attempt: Մուտքագրեք ձեր երկփուլային նույնականացման կոդը՝
+    registration:
+      guests: Հյուր
+      comments: Մեկնաբանություն
+      paid_entry_fees: Վճարված
+      status: Կարգավիճակ
+      administrative_notes: Ադմինիստրատիվ նշումներ
+      name: Անուն
+      birthday: Ծննդյան օր
+      registration_competition_events: Կատեգորիաներ
+      email: Էլ․հասցե
+      search: Որոնել․․․
+      too_few_chars: Չափազանց քիչ նիշեր
+      no_results: Արդյունք չկա
+    competition_tab:
+      content: Բովանդակություն
+      name: Անուն
+    delegate_report:
+      discussion_url: Քննարկման URL-ը Google խմբում
+      schedule_url: Օրակարգի հղում
+      summary: Ամփոփում
+      equipment: Սարքավորում
+      venue: Վայր
+      organization: Կազմակերպում
+      incidents: Միջադեպեր
+      setup_images: Առաջնության դասավորության նկարներ
+      wrc_feedback_requested: Ես ուզում եմ ստանալ WRC-ի արձագանքը վերը նշված 
+        որոշ միջադեպերի վերաբերյալ։
+      wrc_incidents: WRC-ի հետադարձ կապի կարիք ունեցող միջադեպեր
+      wic_feedback_requested: Ես ուզում եմ ստանալ WIC-ի արձագանքը վերը նշված 
+        որոշ միջադեպերի վերաբերյալ։
+      wic_incidents: WIC-ի հետադարձ կապի կարիք ունեցող միջադեպեր
+      remarks: Դիտողություններ
+    person:
+      wca_id: Անձ
+      country_id: Ներկայացնում է
+      dob: Ծննդյան օր
+      gender: Սեռ
+      name: Անուն
+      incorrect_wca_id_claim_count: Սխալ WCA ID-ի պահանջների քանակ
+    poll:
+      question: Հարց
+      deadline: Վերջնաժամկետ
+    post:
+      title: Վերնագիր
+      body: Հիմնական տեքստ
+      sticky: Կպչուն
+      unstick_at: Հեռացնել
+      tags: Նշումներ
+      show_on_homepage: Ցուցադրել գլխավոր էջում
+    team:
+      name: Անուն
+      description: Նկարագրություն
+    vote:
+      comment: Մեկնաբանություն
+    incident:
+      title: Վերնագիր
+      private_description: Նկարագրություն (գաղտնի)
+      private_wrc_decision: Որոշում (գաղտնի)
+      public_summary: Ամփոփում (հանրային)
+      digest_worthy: Դայջեսթի արժանի
+      tags: Նշումներ
+      competition_id: Պատահել է
+    competition_medium:
+      competition_id: Առաջնություն
+      media_type: Տեսակ
+      text: Տեքստ
+      uri: Հղում
+      submitter_name: Ուղարկողի անուն
+      submitter_email: Ուղարկողի էլ․հասցե
+      submitter_comment: Ուղարկողի մեկնաբանություն
+      status: Կարգավիճակ
+    regional_organization:
+      name: Անուն
+      country: Շրջան
+      website: Կայք
+      logo: Լոգո
+      email: Էլ․հասցե
+      address: Պաշտոնական հասցե
+      bylaws: Կանոնադրություն
+      directors_and_officers: Գլխավոր տնօրենների և պաշտոնատար անձանց ցանկը և 
+        նրանց պաշտոնները
+      area_description: Գործունեության տարածքի հստակ նկարագիր
+      past_and_current_activities: WCA-ի հետ կապված նախկինում արված և ներկա 
+        գործունեության հաշվետվություն
+      future_plans: Ապագա պլանները որպես WCA կողմից ճանաչված Տարածաշրջանային 
+        Կազմակերպություն
+      extra_information: Որևէ լրացուցիչ տեղեկատվությու՞ն
+      extra_file: Որևէ լրացուցիչ ֆա՞յլ
+      start_date: Ճանաչված է
+      end_date: Ճանաչվել է մինչև
+enums:
+  user:
+    gender:
+      m: Արական
+      f: Իգական
+      o: Այլ
+  user_roles:
+    status:
+      delegate_regions:
+        trainee_delegate: Սովորող պատվիրակ
+        junior_delegate: Կրտսեր պատվիրակ
+        delegate: Պատվիրակ
+        regional_delegate: Տարածաշրջանային պատվիրակ
+        senior_delegate: Ավագ պատվիրակ
+      teams_committees:
+        member: Անդամ
+        senior_member: Ավագ անդամ
+        leader: Ղեկավար
+      councils:
+        member: Անդամ
+        senior_member: Ավագ անդամ
+        leader: Ղեկավար
+      officers:
+        chair: WCA Նախագահ
+        executive_director: WCA Գործադիր տնօրեն
+        chief_operating_officer: WCA Գլխավոր գործառնական տնօրեն
+        secretary: WCA Քարտուղար
+        vice_chair: WCA Փոխնախագահ
+        treasurer: WCA Գանձապահ
+    ban_scope:
+      competing_only: Միայն մասնակցել
+      competing_and_attending: Մասնակցել և այցելել
+      competing_and_attending_and_forums: Մասնակցել, այցելել և ֆորումներ
+  competition_medium:
+    status:
+      accepted: Հաստատված
+      pending: Ընթացքում
+    media_type:
+      report: Զեկույց
+      article: Հոդված
+      multimedia: Մուլտիմեդիա
+simple_form:
+  "yes": Այո
+  "no": Ոչ
+  required:
+    text: պարտադիր
+    mark: '*'
+  error_notification:
+    default_message: Խնդրում ենք վերանայել հետևյալ խնդիրները։
+  hints:
+    incident:
+      title: Հաշվի առեք որ սա հանրային է, և այն պետք է լրացնեք Անգլերեն!
+      private_description: 'Միջադեպի նկարագրություն, որը կարող են դիտել միայն Պատվիրակները:
+        Խնդրում ենք լրացնել այն անգլերենով:'
+      private_wrc_decision: WRC-ի վերջնական որոշումը, ներառյալ անձնական 
+        տվյալները։ Խնդրում ենք լրացնել անգլերենով։
+      public_summary: Միջադեպի և դրա վերաբերյալ որոշման ընդհանուր 
+        նկարագրությունը, որը պետք է հրապարակվի։ Խնդրում ենք լրացնել անգլերենով։
+    user:
+      dob: Մասնակցի ծննդյան օրը գրեք հետևյալ ֆորմատով ՏԱՐԻ-ԱՄ-ՕՐ։
+      name: Ճիշտ լրացրեք մասնակցի անուն ազգանունը, օրինակ՝ <strong>Պողոս 
+        Պողոսյան</strong>. Ոչ թե <strong>sպ պողոսյան</strong>.<br/>Միջին 
+        անունները (ամբողջական կամ մի տառը) ըստ ցանկության են.
+      pending_avatar: Նոր ավատար բեռնելուց հետո պետք է սպասեք WCA Արդյունքների 
+        թիմը այն հաստատի։
+      registration_notifications_enabled: Սա վերաբերում է միայն ձեր կողմից 
+        կազմակերպվող կամ պատվիրակված մրցույթներին և կարող է չեղարկվել 
+        յուրաքանչյուր մրցույթի համար։
+      receive_developer_mails: Սա սահմանափակված է միայն ռեսուրսների մեծ 
+        փոփոխություններով վերսիաների ծանուցման համար, ռեսուրսներից են՝ Data 
+        Export, WCIF schema և Public API. Խորհուրդ է տրվում այն ծրագրավորողներին
+        ովքեր օգտագործում են այս գործիքները ծրագրային ապահովման համար։
+      receive_delegate_reports: Եթե դուք Ավագ պատվիրակ եք կամ WRC-ի կամ WQAC-ի 
+        անդամ, ապա պատվիրակների զեկույցները ստանում եք ի սկզբանե։ Նշում՝ 
+        փոփոխությունը ուժի մեջ մտնելու համար կարող է պահանջվել մինչև 12 ժամ։
+      delegate_reports_region: 'Եթե ցանկանում եք ստանալ բոլոր զեկույցները, այս դաշտը
+        թողեք դատարկ (ցանկում վերևի տարբերակը): Նշում՝ փոփոխությունը ուժի մեջ մտնելու
+        համար կարող է պահանջվել մինչև 12 ժամ։'
+      otp_attempt: Ստուգեք միանգամյա գաղտնաբառի առկայությունը կարգավորված 
+        բջջային հավելվածում կամ մուտքագրեք ձեր վերականգնման կոդերից մեկը։
+    dob_contact:
+      dob: Ձեր ծննդյան ճիշտ օրը ՏԱՐԻ-ԱՄ-ՕՐ ֆորմատով
+      document: 'Ձեր ինքնությունը և ծննդյան ճիշտ ամսաթիվը մեզ ապացուցելու համար դուք
+        պետք է կցեք ցանկացած իրավական փաստաթղթի լուսանկար (անձնագիր, վարորդական իրավունք,
+        ուսանողական քարտ, անձնագիր, ծննդյան վկայական և այլն), որտեղ ձեր անունն ու
+        ծննդյան ամսաթիվը տեսանելի և հասկանալի են անգլերեն խոսողի համար (կամ կապվեք
+        ձեր տեղական WCA պատվիրակի հետ, եթե նման փաստաթուղթ չունեք): Անձնագրում մեզ
+        անհրաժեշտ է առնվազն ձեր անունն ու ծննդյան ամսաթիվը. կարող եք թաքցնել/մաքրել
+        անձը հաստատող փաստաթղթում նշված ցանկացած այլ անձնական տվյալ:'
+    post:
+      body: 'Օգտագործեք &lt;!-- break --&gt; թեգը՝ գլխավոր էջում նախադիտումը ցուցադրելու
+        համար: Գլխավոր էջի ցանկացած գրառում կցուցադրի այս բաժանարարից առաջ գտնվող
+        ամբողջ տեքստը: Իրական գրառումը կցուցադրի ամբողջ տեքստը:'
+      show_on_homepage: Զգույշ եղեք։ Սա անվտանգ չէ անձնական տվյալների համար։ Սա 
+        միայն գլխավոր էջի ավելորդ պարունակությունը կանխելու համար է։ Գլխավոր 
+        էջում չցուցադրվող գրառումները դեռևս հասանելի են հանրությանը մշտական 
+        հղման կամ թեգերի միջոցով։
+    delegate_report:
+      schedule_url: Ամբողջական հղումը հրապարակված օրակարգի համար (օրինակ՝ 
+        https://www.cubingusa.com/usnationals2016/schedule.php)
+      equipment: Առաջնության ընթացքում օգտագործված ժամաչափերի և էկրանների քանակն
+        ու տեսակը։ Խնդրում ենք հեռացրեք այն սարքավորումների անունները որոնք չեք 
+        օգտագործել։
+      summary: 'Թվարկած կետերը միայն ուղեցույց են ամբողջական զեկույց կազմելու համար:
+        Օգտագործեք դրանք ձեր հայեցողությամբ՝ ըստ ձեր նպատակահարմարության: Խնդրում
+        ենք հեռացնել չօգտագործված մասերը:'
+      venue: 'Թվարկած կետերը միայն ուղեցույց են ամբողջական զեկույց կազմելու համար:
+        Օգտագործեք դրանք ձեր հայեցողությամբ՝ ըստ ձեր նպատակահարմարության: Խնդրում
+        ենք հեռացնել չօգտագործված մասերը:'
+      organization: 'Թվարկած կետերը միայն ուղեցույց են ամբողջական զեկույց կազմելու
+        համար: Օգտագործեք դրանք ձեր հայեցողությամբ՝ ըստ ձեր նպատակահարմարության: Խնդրում
+        ենք հեռացնել չօգտագործված մասերը:'
+      incidents: 'Խնդրում ենք տեղեկացնել բոլոր ոչ ստանդարդ միջադեպերի մասին: Համարակալեք
+        միջադեպերը՝ սկսած 1-ից, որպեսզի մյուս պատվիրակները կարողանան մեկնաբանել դրանք՝
+        հղում անելով համարներին: Նույնիսկ եթե լւորջ միջադեպեր չեն եղել, թվարկեք հիշվողները:
+        Խնդրում ենք նշել համապատասխան վանդակները, եթե ցանկանում եք ստանալ հետադարձ
+        կապ։'
