@@ -251,3 +251,181 @@ activerecord:
       remember_me: nikumbuke
       pending_avatar: Weka picha mpya ya wasifu
       remove_avatar: toa picha ya wasifu
+      password_confirmation: Weka nenosiri lako tena
+      results_notifications_enabled: Nitumie barua pepe matokeo yangu 
+        yatakapochapishwa.
+      registration_notifications_enabled: Ninapoandaa au kusimamia mashindano, 
+        nitumie barua pepe usajili mpya utakapowasilishwa.
+      delegate_status: Hali ya mwakilishi
+      location: eneo
+      region: eneo
+    registration:
+      paid_entry_fees: imelipwa
+      status: hali
+      administrative_notes: Maelezo ya kiutawala
+      name: jina
+      birthday: siku ya kuzaliwa
+      registration_competition_events: matukio
+      email: barua pepe
+      search: tafuta...
+      too_few_chars: Herufi chache mno
+      no_results: hakuna matokeo
+    competition_tab:
+      content: maudhui
+      name: jina
+    delegate_report:
+      discussion_url: Kiungo cha majadiliano kwenye Kundi la Google
+      schedule_url: Kiungo cha ratiba
+      summary: muhtasari
+      venue: ukumbi
+      organization: shirika
+      incidents: matukio
+      setup_images: Picha za mpangilio wa mashindano
+      wrc_feedback_requested: Ningependa kupokea maoni kutoka kwa WRC kuhusu 
+        baadhi ya matukio hapo juu.
+      wrc_incidents: Matukio Yanayohitaji Maoni kutoka WRC
+      wic_feedback_requested: Ningependa kupokea maoni kutoka kwa WIC kuhusu 
+        baadhi ya matukio hapo juu.
+      wic_incidents: Matukio Yanayohitaji Maoni kutoka WIC
+      remarks: Maoni
+    person:
+      wca_id: Mtu
+      country_id: kuwakilisha
+      dob: tarehe ya kuzaliwa
+      gender: jinsia
+      name: jina
+      incorrect_wca_id_claim_count: Idadi ya madai ya kitambulisho cha WCA isiyo
+        sahihi
+    poll:
+      question: Swali
+      deadline: siku ya mwisho
+    post:
+      title: Anwani
+      body: mwili
+      sticky: bandika
+      unstick_at: Ondoa ubandiko kwenye
+      tags: lebo
+      show_on_homepage: Onyesha kwenye ukurasa wa kwanza
+    team:
+      name: jina
+      description: maelezo
+    vote:
+      comment: hoja
+    incident:
+      title: anwani
+      private_description: maelezo(binafsi)
+      private_wrc_decision: uamuzi(binafsi)
+      public_summary: muhtasari(hadhira)
+      digest_worthy: Yenye tija
+      tags: lebo
+      competition_id: ilitokea wakati wa
+    competition_medium:
+      competition_id: shindano
+      media_type: aina
+      text: maandishi
+      uri: kiongo
+      submitter_name: Jina la mtumaji
+      submitter_email: Barua pepe ya mtumaji
+      submitter_comment: Maoni ya mtumaji
+      status: hali
+    regional_organization:
+      name: jina
+      country: mkoa
+      website: tovuti
+      logo: Nembarishi
+      email: barua pepe
+      address: Anwani rasmi
+      bylaws: katiba
+      directors_and_officers: Orodha ya Wakurugenzi Wakuu na Maafisa pamoja na 
+        vyeo vyao
+      area_description: Maelezo wazi ya eneo linalohusika
+      past_and_current_activities: Ripoti ya shughuli za zamani na za sasa 
+        zinazohusiana na WCA
+      future_plans: Mipango ya siku zijazo kama Shirika la Kikanda 
+        linalotambuliwa na WCA
+      extra_information: Miongozo ya Ujanibishaji?
+      extra_file: Miongozo ya Ujanibishaji?
+      start_date: Imetambuliwa tangu
+      end_date: Imetambuliwa hadi
+enums:
+  user:
+    gender:
+      m: mwanaume
+      f: mwanamke
+      o: mwingine
+  user_roles:
+    status:
+      delegate_regions:
+        trainee_delegate: Mjumbe mtarajiwa
+        junior_delegate: mjumbe mdogo
+        delegate: mjumbe
+        regional_delegate: Mjumbe wa Kikanda
+        senior_delegate: Mjumbe Mkuu
+      teams_committees:
+        member: mwanachama
+        senior_member: mwanachama mkuu
+        leader: kiongozi
+      councils:
+        member: mwanachama
+        senior_member: mwanachama mkuu
+        leader: kiongozi
+      officers:
+        chair: mwenyekitu wa WCA
+        executive_director: Mkurugenzi Mtendaji wa WCA
+        chief_operating_officer: Afisa Mkuu wa Uendeshaji wa WCA
+        secretary: Katibu wa WCA
+        vice_chair: Makamu wa Mwenyekiti wa WCA
+        treasurer: mweka hazina wa WCA
+    ban_scope:
+      competing_only: Kushindana Pekee
+      competing_and_attending: Kushindana na Kuhudhuria
+      competing_and_attending_and_forums: Kushindana, Kuhudhuria na Mijadala
+  competition_medium:
+    status:
+      accepted: Imekubaliwa
+      pending: Inasubiri
+    media_type:
+      report: ripoti
+      article: makala
+      multimedia: Multimedia
+simple_form:
+  "yes": ndio
+  "no": apana
+  required:
+    text: inahitajika
+    mark: '*'
+  error_notification:
+    default_message: 'Tafadhali kagua matatizo hapa chini:'
+  hints:
+    incident:
+      title: Kumbuka kwamba hii ni ya umma, na kwamba inakupasa ujaze hii kwa 
+        Kiingereza!
+      private_description: Maelezo ya tukio ambayo yanaweza kutazamwa tu na 
+        Wajumbe. Tafadhali jaza haya kwa Kiingereza.
+      private_wrc_decision: Uamuzi wa mwisho wa WRC, pamoja na maelezo ya siri. 
+        Tafadhali jaza haya kwa Kiingereza.
+      public_summary: Maelezo ya jumla ya tukio na uamuzi wake, yatakayoonyeshwa
+        kwa umma. Tafadhali jaza haya kwa Kiingereza.
+    user:
+      dob: Weka tarehe ya kuzaliwa ya mshindani katika muundo wa YYYY-MM-DD.
+      name: Weka jina kamili la mshindani kwa usahihi, kwa mfano <strong>Stefan 
+        Pochmann<strong>. Sio ovyoovyo kama <strong>s 
+        pochman<strong>.<br/>Majina ya kati (ikiwa ni kamili au herufi za 
+        kwanza) ni ya hiari.
+      pending_avatar: Baada ya kupakia picha mpya ya wasifu (avatar), italazimu 
+        usubiri Timu ya Matokeo ya WCA iidhinishe.
+      registration_notifications_enabled: Hii inatumika tu kwa mashindani 
+        unayoandaa au kuyaongoza kama mjumbe, na inaweza kubatilishwa kwa kila 
+        mashindano binafsi.
+      receive_developer_mails: Hii ni maalum kwa ajili ya arifa za mabadiliko 
+        makubwa ya toleo kwenye rasilimali kama vile usafirishaji wa data, 
+        mpangilio (schema) wa WCIF, na API za umma. Inapendekezwa kwa 
+        watengenezaji wa programu wanaotegemea zana hizi.
+      receive_delegate_reports: 'Ikiwa wewe ni Mjumbe Mwandamizi (Senior Delegate)
+        au Mwanachama wa WRC au WQAC, utapokea Ripoti za Wajumbe kwa chaguo-msingi.
+        Kumbuka: mabadiliko yanaweza kuchukua hadi saa 12 kuanza kufanya kazi.'
+      delegate_reports_region: 'Ikiwa unataka kupokea ripoti zote, acha sehemu hii
+        wazi (chaguo la kushuka lililo juu kabisa). Kumbuka: mabadiliko yanaweza kuchukua
+        hadi saa 12 kuanza kufanya kazi.'
+      otp_attempt: Angalia programu yako ya simu iliyowekwa kwa nenosiri la mara
+        moja, au weka mojawapo ya nambari zako za kupona.
