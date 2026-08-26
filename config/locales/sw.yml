@@ -259,6 +259,14 @@ activerecord:
       delegate_status: Hali ya mwakilishi
       location: eneo
       region: eneo
+      receive_developer_mails: Ningependa kupokea taarifa kuhusu mabadiliko ya 
+        rasilimali za programu za WCA
+      receive_delegate_reports: Ningependa kupokea Ripoti za Wajumbe wa 
+        Mashindano ya WCA kupitia barua pepe
+      delegate_reports_region: Ningependa kupokea Ripoti za Wajumbe kwa ajili ya
+        eneo hili pekee
+      user_preferred_events: Matukio unayopendelea"
+      otp_attempt: 'Weka nsimbo yako ya uthibithatisho wa hatua mbili:'
     registration:
       paid_entry_fees: imelipwa
       status: hali
@@ -270,6 +278,7 @@ activerecord:
       search: tafuta...
       too_few_chars: Herufi chache mno
       no_results: hakuna matokeo
+      guests: wageni
     competition_tab:
       content: maudhui
       name: jina
@@ -288,6 +297,7 @@ activerecord:
         baadhi ya matukio hapo juu.
       wic_incidents: Matukio Yanayohitaji Maoni kutoka WIC
       remarks: Maoni
+      equipment: vifaa
     person:
       wca_id: Mtu
       country_id: kuwakilisha
@@ -429,3 +439,5 @@ simple_form:
         hadi saa 12 kuanza kufanya kazi.'
       otp_attempt: Angalia programu yako ya simu iliyowekwa kwa nenosiri la mara
         moja, au weka mojawapo ya nambari zako za kupona.
+    dob_contact:
+      dob: siku yako sahihi ya kuzaliwa kwa mtindo YY-MM-DD
