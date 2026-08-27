@@ -279,6 +279,7 @@ activerecord:
       too_few_chars: Herufi chache mno
       no_results: hakuna matokeo
       guests: wageni
+      comments: maoni
     competition_tab:
       content: maudhui
       name: jina
@@ -441,3 +442,111 @@ simple_form:
         moja, au weka mojawapo ya nambari zako za kupona.
     dob_contact:
       dob: siku yako sahihi ya kuzaliwa kwa mtindo YY-MM-DD
+      document: Ili kututhibitishia utambulisho wako na tarehe yako sahihi ya 
+        kuzaliwa, unapaswa kuambatisha picha ya hati yoyote rasmi ya kisheria 
+        (kitambulisho cha taifa, leseni ya udereva, kitambulisho cha mwanafunzi,
+        pasipoti, cheti cha kuzaliwa, ...) ambapo jina lako na tarehe yako ya 
+        kuzaliwa vinaonekana na vinaeleweka kwa mtu anayezungumza Kiingereza (au
+        wasiliana na Mwakilishi wako wa WCA wa eneo lako ikiwa huna hati kama 
+        hiyo). Kwenye kitambulisho hicho tunahitaji angalau jina lako na tarehe 
+        ya kuzaliwa; jisikie huru kuficha/kufifisha data zozote nyingine za 
+        kibinafsi kwenye kitambulisho hicho.
+    post:
+      body: Tumia lebo ya &lt;!-- break --&gt; kuonyesha hakikisho kwenye 
+        ukurasa wa nyumbani. Chapisho lolote kwenye ukurasa wa nyumbani 
+        litaonyesha maandishi yote kabla ya kigawanyaji hiki. Chapisho halisi 
+        litaonyesha maudhui kamili.
+      show_on_homepage: Tahadhari! Hii si salama kwa data za siri. Hii ni kwa 
+        ajili tu ya kuzuia kurasa za nyumbani kuwa na msongamano. Machapisho 
+        ambayo hayaonyeshwa kwenye ukurasa wa nyumbani bado yanapatikana kwa 
+        umma kupitia kiungo cha kudumu au kupitia lebo.
+    delegate_report:
+      schedule_url: Kiunga kamili cha ratiba iliyochapishwa(e.g., 
+        https://www.cubingusa.com/usnationals2016/schedule.php)
+      equipment: Nambari na aina ya vipima muda na maonyesho yaliyotumika kwenye
+        mashindano. Tafadhali ondoa mstari/mistari ya vifaa ambavyo huvikutumia.
+      summary: Vidokezo vilivyoorodheshwa hapo juu ni kwa ajili ya mwongozo tu 
+        wa ripoti kamili. Vitumie kwa hiari yako kulingana na unavyoona vinafaa.
+        Tafadhali ondoa sehemu ambazo hazikutumika!
+      venue: Vidokezo vilivyoorodheshwa hapo juu ni kwa ajili ya mwongozo tu wa 
+        ripoti kamili. Vitumie kwa hiari yako kulingana na unavyoona vinafaa. 
+        Tafadhali ondoa sehemu ambazo hazikutumika!
+      organization: Vidokezo vilivyoorodheshwa hapo juu ni kwa ajili ya mwongozo
+        tu wa ripoti kamili. Vitumie kwa hiari yako kulingana na unavyoona 
+        vinafaa. Tafadhali ondoa sehemu ambazo hazikutumika!
+      incidents: Tafadhali ripoti matukio yote ambayo si ya kawaida. Nambaza 
+        matukio hayo kuanzia 1., ili Wacha wengine waweze kutoa maoni kwa 
+        kuyarejelea kwa nambari zao. Hata kama kila kitu kilionekana cha 
+        kawaida, tafadhali orodhesha angalau kesi zinazostahili kuzingatiwa 
+        zaidi. Tafadhali weka alama kwenye visanduku vinavyofaa hapa chini ikiwa
+        unatafuta maoni kikamilifu.
+      setup_images: Lazima uweke angalau picha %{image_count} zinazoonyesha 
+        maeneo ya kuchanganya na ya mashindano kutoka kwa mashindano haya ya 
+        sasa, ikiwezekana wakati wa mashindano (picha nyingine pia 
+        zinakaribishwa). Unaweza kuchagua faili nyingi kwa wakati mmoja. Unaweza
+        kufuta picha tu wakati picha zingine za kutosha zimewekwa (ikiwa unataka
+        kubadilisha picha, unahitaji kupakia mpya kwanza, kisha ufute ya 
+        zamani). Ikiwa huna picha za sasa za eneo la mashindano na/au eneo la 
+        kuchanganya wakati linatumika, tafadhali eleza kwanini.
+      wrc_incidents: Orodha ya nambari zinazorejelea matukio yoyote ambayo 
+        ungependa kupokea maoni kutoka kwa WRC.
+      wic_incidents_html: Orodha ya nambari zinazorejelea matukio yoyote ambayo 
+        ungependa kupokea maoni kutoka kwa WIC. <br> 
+        <strong>%{wic_incident_alert}</strong>
+      wic_incident_alert: Kama tukio la WIC ni nyeti (pamoja na lakini sio tu 
+        uhalifu, unyanyasaji, shambulio, n.k.), tafadhali ondoa hili kwenye 
+        ripoti yako na utume barua pepe kwa WIC kando. Kwa matukio mengine ya 
+        WIC, tumia toleo fupi, lisilojulikana jina la mtu (anonymized) la tukio 
+        hilo na ufuatilie na WIC kwa faragha kwa maelezo zaidi. WIC bado itatoa 
+        maoni kwenye matoleo yasiyojulikana jina kwa ajili ya uelewa wa jumla. 
+        Kwa matukio yote ya WIC yanayohusisha Kujitolea kwa WCA Volunteer, 
+        tafadhali ondoa maelezo yote kutoka kwenye ripoti, na uwasiliane na WIC 
+        kwa faragha.
+      remarks: Zungumzia jambo lingine lolote ambalo ungependa kushiriki (k.m., 
+        maendeleo/kudorora ndani ya jamii, mipango ya siku za usoni kwa ajili ya
+        eneo hili). Ikiwa kwa ajili ya ufupi uliacha jambo fulani bila kutajwa 
+        katika sehemu zilizopita, jisikie huru kutoa maoni yako hapa.
+    competition_tab:
+      name: 'Mifano: Usafiri, Malipo, Tuzo, Malazi'
+    regional_organization:
+      website: Lazima iwe url halali ya http(s). HTTPS inashauriwa
+      logo: Lazima iwe katika mfumo wa PNG, yenye ubora mzuri, na yenye asili ya
+        wazi
+      email: Inapaswa kuwa orodha ya barua pepe yenye Wakurugenzi na Maofisa 
+        wote
+      bylaws: Lazima iwe katika mfumo wa PDF
+      extra_file: Lazima iwe katika mfumo wa PDF. Ikiwa unahitaji kuongeza faili
+        zaidi, tafadhali ziunganishe pamoja
+  options:
+    registration:
+      status:
+        accepted: imeitikiwa
+        pending: Orodha ya kusubiri
+        deleted: imefutwa
+mail_form:
+  attributes:
+    contact_form:
+      inquiry: Ni yapi kati ya yafuatayo yanayoeleza vyema uchunguzi wako?
+      competition_id: shindano
+      name: Jina
+      your_email: barua pepe yako
+    website_contact:
+      message: ujumbe
+    dob_contact:
+      wca_id: Kitambulisho chako cha WCA
+      document: Hati
+    contact_wrt:
+      wca_id: kitambulisho cha WCA
+  competition_link_html: finya <a href='%{url}'>here</a> kutembelea ukurasa wa 
+    mashindano
+  errors:
+    dob_contact:
+      dob_invalid: imeumbizwa vibaya
+errors:
+  next_frontend:
+    title: Hitilafu imetokea wakati wa kuonyesha ukurasa
+    description: Ikiwa hitilafu hii itaendelea, ripoti kwa WST ukiwa na maelezo 
+      yaliyoorodheshwa hapa chini
+    details: Maelezo ya hitilafu
+  messages:
+    wrong_size: ina ukubwa mbaya (should be %{file_size})
