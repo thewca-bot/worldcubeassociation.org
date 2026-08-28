@@ -1734,15 +1734,13 @@ vi:
         welcome: 'Chào mừng %{user_email}!'
         #original_hash: da39d05
         confirm: >-
-          Tài khoản của bạn đã được tạo và phải được kích hoạt trước khi sử
-          dụng. Vui lòng xác nhận tài khoản của bạn qua đường dẫn dưới đây:
-        #original_hash: 776476a
+          Đã tạo tài khoản thành công. Bạn phải xác nhận tài khoản trước khi có thể
+          sử dụng thông qua link dưới đây:  #original_hash: 776476a
         confirmation_link: Xác nhận tài khoản của tôi.
         #original_hash: d484f70
         activate: >-
-          Sau khi kích hoạt thành công, bạn có thể đăng nhập vào trang web của
-          WCA:
-        #original_hash: fb02586
+          Sau khi kích hoạt thành công, bạn có thể đăng nhập vào trang web của WCA:
+           #original_hash: fb02586
         login_form: đơn đăng nhập
         #original_hash: 333999b
         addendum: >-
@@ -1774,8 +1772,8 @@ vi:
           giải đấu này, bạn sẽ nhận được một thông báo khác.
         #original_hash: dfea09d
         contact: >-
-          Nếu bạn còn bất kỳ thắc mắc nào, vui lòng liên hệ với Delegate của
-          giải đấu qua email:
+          Nếu bạn còn bất kỳ thắc mắc nào, vui lòng liên hệ với Delegate của giải
+          đấu qua email: 
       competition_announcement_email:
         #original_hash: 87f1f49
         header: 'WCAT đã công bố %{competition}'
@@ -3092,8 +3090,8 @@ vi:
       result_sentence: 'với %{a_win_by_word} %{result}'
       #original_hash: 756603f
       no_winner: >-
-        Nội dung chính là %{event_name}. Vì không có thí sinh nào hoàn thành
-        thành công lượt thi, giải đấu không có người thắng cuộc.
+        Nội dung chính là %{event_name}. Vì không có thí sinh nào có kết quả thành
+        công, giải đấu không có người thắng cuộc.
       #original_hash: 5262865
       h2h_winner: >-
         %{winner} dành chiến thắng trong vòng chung kết Đối đầu của nội dung
@@ -3795,7 +3793,7 @@ vi:
         nothing_to_accept: Không có đơn đăng ký nào có thể duyệt tự động
       pdf:
         #original_hash: 5c7d60f
-        link: 'Dưới dạng  <0>%{pdfLink}</0>'
+        link: 'Dưới dạng <0>%{pdfLink}</0>'
       info:
         #original_hash: eade5c7
         download: Tải xuống toàn bộ thông tin của giải đấu
@@ -5292,7 +5290,7 @@ vi:
         học tập để trở thành WCA Delegate và chỉ được phép giám sát các giải đấu
         khi có sự có mặt của WCA Delegate khác.</p>
       #original_hash: 27d18ac
-      see_link_html: '(xem %{link})'
+      see_link_html: ' (xem %{link})'
       #original_hash: 5b01fcc
       members_html: >-
         Tất cả thí sinh đều mặc định trở thành <strong>thành viên</strong> của
@@ -6295,10 +6293,10 @@ vi:
         ở sau một dấu cách.'
       #original_hash: 6daf706
       same_person_name_warning: >-
-        Có ít nhất một người có tên  '%{name}' trong cơ sở dữ liệu WCA
-        (%{wca_ids}). Xin kiểm tra lại dể đảm bảo rằng '%{name}' khác với các
-        thí sinh trước đây. Nếu không, xin vui lòng gán đúng WCA ID vào tài
-        khoản người dùng và tạo lại file JSON kết quả.
+        Có ít nhất một người có tên '%{name}' trong cơ sở dữ liệu WCA (%{wca_ids}).
+        Xin kiểm tra lại dể đảm bảo rằng '%{name}' khác với các thí sinh trước đây.
+        Nếu không, xin vui lòng gán đúng WCA ID vào tài khoản người dùng và tạo lại
+        file JSON kết quả.
       #original_hash: eeb688a
       non_matching_dob_warning: >-
         Ngày sinh '%{dob}' của %{name} (%{wca_id}) không đúng với dữ liệu trong
@@ -6315,9 +6313,8 @@ vi:
         lệ là 'female', 'male' và 'other'. Xin vui lòng ghi chú cho WRT.
       #original_hash: 050c7e2
       non_matching_name_warning: >-
-        Tên '%{name}' của %{wca_id} không đúng với dữ liệu trong cơ sở dữ liệu
-        WCA ('%{expected_name}').
-      #original_hash: 333a035
+        Tên '%{name}' của %{wca_id} không đúng với dữ liệu trong cơ sở dữ liệu WCA
+        ('%{expected_name}').  #original_hash: 333a035
       non_matching_country_warning: >-
         Quốc tịch '%{country}' của %{name} (%{wca_id}) không đúng với dữ liệu
         trong cơ sở dữ liệu WCA ('%{expected_country}'). Nếu có sai sót, xin vui
