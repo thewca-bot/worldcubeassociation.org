@@ -535,6 +535,7 @@ mail_form:
     dob_contact:
       wca_id: Kitambulisho chako cha WCA
       document: Hati
+      dob: Tarehe ya kuzaliwa
     contact_wrt:
       wca_id: kitambulisho cha WCA
   competition_link_html: finya <a href='%{url}'>here</a> kutembelea ukurasa wa 
@@ -550,3 +551,192 @@ errors:
     details: Maelezo ya hitilafu
   messages:
     wrong_size: ina ukubwa mbaya (should be %{file_size})
+    size_too_small: ni kidogo mno( iwe angalau {%{file_size})
+    size_too_big: ni kubwa mno(iwe angalau%{file_size})
+    no_permission: Huna ruhusa inayohitajika kufikia ukurasa huu.
+devise:
+  passwords:
+    edit:
+      new_password_confirmation: Weka nenosiri jipya tena
+  sessions:
+    new:
+      sign_in: ingia
+      2fa:
+        verify: Ili uingie, thibitisha kuwa ni wewe
+        confirm: Thibitisha msimbo
+        regenerated_secret: Umeunda upya siri yako ya uthibitishaji wa hatua 
+          mbili kwa mafanikio.
+        enabled_success: Uthibitishaji wa hatua mbili umewashwa kwa mafanikio.
+        email_auth: Uthibitishaji wa barua pepe
+        get_by_email: Pata msimbo kupitia barua pepe
+        get_by_email_desc: Ikiwa huwezi kupata kifaa chako au misimbo ya 
+          ufikiaji, unaweza pia kubonyeza kitufe kilicho hapa chini ili kupata 
+          nenosiri la mara moja kupitia barua pepe. Nakili na ubandike kwenye 
+          kisanduku kilicho hapo juu ili uingie.
+        email_sent: Umetumiwa msimbo kupitia barua pepe. Msimbo huu ni halali 
+          kwa dakika 2. Unaweza kuomba msimbo mpya baada ya dakika 2.
+        errors:
+          cant_send_email: Huwezi kutuma barua pepe kwa sasa
+          invalid_otp: Msimbo wa uthibitishaji wa hatua mbili si sahihi.
+          not_enabled: Uthibitishaji wa hatua mbili haujawashwa
+          unknown: Hitilafu isiyojulikana wakati wa kutuma barua pepe yako. 
+            Tafadhali wasiliana na WST.
+        otp_email:
+          subject: Nenosiri lako la mara moja la WCA
+          2fa_attempt: 'Unajaribu kuingia kwenye tovuti ya WCA. Umewasha uthibitishaji
+            wa hatua mbili na ukaomba utumiwe nenosiri la mara moja kupitia barua
+            pepe. Tafadhali ulipate hapa chini:'
+          disclaimer: 'Ikiwa hukuomba msimbo huo wa uthibitishaji, tafadhali wasiliana
+            na WST mara moja kwa kujibu barua pepe hii: huenda una kipindi kilicho
+            wazi mahali fulani au nenosiri lilikotwa.'
+        name: Uthibitishaji wa hatua mbili(2FA)
+        support_desc_html: 'tovuti ya WCA inasaidia %{two_factor_link} kwa kutumia
+          nenosiri la mara moja:'
+        options:
+          app: iliyotengenezwa na programu maalum ya 2FA kwenye simu yako mahiri
+            (kama vile Authy, Google Authenticator, au iOS Passwords).
+          recovery: iliyochukuliwa kutoka kwa misimbo ya kurejesha iliyotolewa 
+            wakati wa kuamilisha 2FA.
+          email: iliyotumwa kwako kupitia barua pepe unapoingia.
+        status_html: Uthibitishaji wa hatua mbili ni %{status} kwako.
+        enabled: Imewashwa
+        disabled: haijawashwa
+        enable: imewashwa 2FA
+        disable: Haijawashwa 2FA
+        reset: Weka upya siri ya 2FA
+        reset_if_needed: 'Ikiwa mojawapo ya vifaa vyako vimeathiriwa, au unataka kuondoa
+          ruhusa kwa vifaa vyako, unaweza kuweka upya siri yako ya uthibitishaji wa
+          hatua mbili hapa chini:'
+        reset_warning: Utahitaji kusanidi upya vifaa vyako vyote vya 2FA.
+        methods: Njia za uthibitishaji wa hatua mbili
+        methods_description: Unaweza kutumia mbinu kadhaa kupata nenosiri la 
+          mara moja unapoingia, zimeelezewa hapa chini.
+        dedicated_app: Kutumia programu maalum ya uthibitishaji wa hatua mbili
+        dedicated_app_desc_html: WST wanapendekeza kutumia %{authy} kwenye kifaa
+          chako binafsi ili kupata nenosiri lako la mara moja 
+          unapoingia.<br/>Other alternatives include %{google}, %{apple}, and 
+          %{microsoft}.
+        scan_qrcode_html: Changanua msimbo wa QR ulio hapa chini unapoombwa na 
+          programu yako ya 2FA (au bofya %{here} ikiwa uko kwenye simu ya 
+          mkononi).
+        backup_codes: Misimbo ya hifadhi
+        backup_codes_desc: Misimbo ya hifadhi inaweza kutumika badala ya 
+          nenosiri la mara moja endapo huna ufikiaji wa kifaa chako chenye 
+          programu yako ya uthibitishaji wa hatua mbili. Kila msimbo unaweza 
+          kutumika mara moja tu. Hakikisha umezihifadhi mahali salama!
+        no_backup_codes: Hujatengeneza misimbo ya hifadhi bado. Bofya kitufe 
+          kilicho hapa chini ili kutengeneza misimbo yako ya hifadhi.
+        regenerate_backup_codes: Umetengeneza baadhi ya misimbo ya hifadhi. 
+          Ikiwa tayari umetumia au kupoteza misimbo hii, unaweza kutengeneza 
+          mpya kwa kutumia kitufe kilicho hapa chini. Fahamu kuwa misimbo yoyote
+          ya hifadhi iliyopo itabatilishwa ukifanya hivi.
+        generate_backup_codes: Tengeneza misimbo ya hifadhi
+        backup_codes_warning: 'Misimbo ya hifadhi itaonyeshwa hapa chini. Hakikisha
+          umeiandika au umezihifadhi mara moja: zimehifadhiwa kwa njia ya usimbaji
+          fiche kwenye hifadhidata yetu na haziwezi kuonyeshwa tena baadaye.'
+        email_auth_desc: Unaweza kuomba nenosiri la mara moja kupitia barua pepe
+          unapojaribu kuingia.
+        disable_section_title: Zima uthibitishaji wa hatua mbili
+        disable_section_content: WST wanakushauri vikali kutozima uthibitishaji 
+          wa hatua mbili, lakini unaweza kufanya hivyo kwa kubofya kitufe 
+          kilicho hapa chini. Tafadhali kumbuka kuwa ukiwezesha tena 
+          uthibitishaji wa hatua mbili utahitaji kusanidi upya kifaa chako au 
+          vifaa vyako.
+        disabled_success: Uthibitishaji wa hatua mbili umezimwa kwa mafanikio.
+        disabled_failed: Imeshindwa kuzima uthibitishaji wa hatua mbili, 
+          tafadhali angalia hitilafu hapa chini.
+    destroy_other:
+      success: Umetoka kwa mafanikio kwenye vifaa vingine vyote.
+  shared:
+    links:
+      sign_in: ingia
+  failure:
+    invalid: Barua pepe, Kitambulisho cha WCA, au nenosiri si sahihi.
+    not_found_in_database: Barua pepe, Kitambulisho cha WCA, au nenosiri si 
+      sahihi.
+    unconfirmed: Lazima uthibitishe anwani yako ya barua pepe kabla ya 
+      kuendelea. Hukupokea barua pepe ya uthibitishaji? Nenda 
+      kwenyehttps://www.worldcubeassociation.org/users/confirmation/ na itisha 
+      mpya.
+  mailer:
+    confirmation_instructions:
+      subject: Tafadhali thibitisha anwani yako mpya ya barua pepe
+wca:
+  errors:
+    messages:
+      form_error:
+        one: 'Fomu hii ina hitilafu moja:'
+        other: 'Fomu hizi zina %{count} errors:'
+    error_pages:
+      500_error: Tunaomba msamaha, lakini kitu fulani kilienda vibaya.
+      500_contact_html: <a href=%{contact_url}>bofya hapa</a> kuiripoti.
+      400_error: Ukurasa uliokuwa ukitafuta haupo.
+      400_contact_html: Ikiwa unafikiri hii ni aibu tafadhali<a 
+        href=%{contact_url}>click here</a> kuiripoti.
+      comp_not_found: shindano Haikupatikana
+      comp_not_found_action: Hatukuweza kupata shindano lenye 
+        kitambulisho"%{comp_id}". Tafadhali tafuta tena kwenye baa ya kutafutia.
+      comp_not_found_action_2: Ikiwa umefuata kiungo kutoka tovuti nyingine ili 
+        kufika hapa, tafadhali iambie tovuti hiyo kuwa kiungo chao si sahihi.
+      session_expired: Kikao kimekwisha muda wake
+      session_expired_action: Kikao chako kimekwisha muda wake. Tafadhali weka 
+        upya ukurasa, jaribu tena kitendo chako, au ingia tena ili uendelee.
+  doorkeeper:
+    applications:
+      help:
+        https_info: HTTPS inahitajika isipokuwa mwenyeji ni"localhost"
+        scopes_html: Tenganisha upeo kwa nafasi. Acha wazi ili kutumia upeo 
+          chaguomsingi. Ona <a 
+          href="https://github.com/thewca/worldcubeassociation.org/blob/main/config/initializers/doorkeeper.rb#L4-L10"
+          target="_blank">here</a> kwa orodha ya upeo unaoungwa mkono.
+    scopes:
+      public: Fikia data yako ya umma (jina, kitambulisho cha WCA, jinsia, 
+        uraia, na picha ya wasifu)
+      dob: Fikia tarehe yako ya kuzaliwa
+      email: Fikia anwani yako ya barua pepe
+      manage_competitions: Simamia mashindano yoyote yajayo unayoandaa
+  devise:
+    no_account: Huna akaunti?
+    have_competed: Nimeshiriki katika mashindano ya WCA.
+    have_never_competed: Sijawahi kushiriki katika mashindano ya WCA.
+    let_us_know: 'Tafadhali tujulishe ikiwa umewahi kushiriki katika mashindano ya
+      WCA hapo awali:'
+    welcome_back: Karibu tena! Ili kuunda akaunti yako ya tovuti ya WCA, 
+      tunahitaji kujua kitambulisho cha WCA ulichotumia kushindana.
+    welcome_html: Karibu! Kabla ya kushiriki katika mashindano yako ya kwanza ya
+      WCA, tunahitaji taarifa za ziada kwa ajili ya kuweka kumbukumbu. Tafadhali
+      kumbuka kuwa tarehe yako ya kuzaliwa haitatolewa kamwe bila idhini 
+      yako.<br/><br/>Ikiwa unajisajili kwa niaba ya mtu mwingine, tafadhali toa 
+      maelezo ya <strong> mshindani <strong>.
+layouts:
+  navigation:
+    information: Taarifa
+    about: Kuhusu WCA
+    documents: Nyaraka za WCA
+    officers_and_board: Maafisa na Bodi ya WCA
+    delegates: Wajumbe wa WCA
+    organizations: Mashirika ya Kikanda
+    translators: watafsiri
+    faq: Maswali Yanayoulizwa Mara kwa Mara
+    forum: Forum
+    teams: Timu na Kamati
+    education: Rasilimali za elimu
+    wca_live: WCA Live
+    contact: wasiliana nasi
+    speedcubing_history: Historia ya speedcubing
+    tools: zana
+    logo: nembo
+    competitions: mashindano
+    all: zote
+    my_competitions: Mashindano yangu
+    new_competition: shindano mpya
+    results: matokeo
+    rankings: Orodha
+    records: recodi
+    persons: watu
+    my_results: matokeo yangu
+    statistics: takwimu
+    multimedia: Multimedia
+    db_results_export: Hamisha Matokeo
+    db_dev_export: Hamisha ya Wasanidi Programu
+    regulations: kanuni
