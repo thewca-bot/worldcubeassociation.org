@@ -1398,3 +1398,21 @@ registrations:
       without_stripe: Գրանցվել է
       with_stripe: Վճարել է
     payment_requested_on: Վճարման հարցումն ուղարկվել է՝ %{date}
+    series_registrations: Սերիաների գրանցումներ
+    total: Ընդհանուր
+  new_registration:
+    title: Գրանցում %{comp} համար
+  sign_in: Մուտք գործել
+  profile: պրոֆիլ
+  register: Գրանցվիր!
+  refund: Վճարման վերադարձ
+  refund_confirmation: Վստա՞հ եք որ ուզում եք ետ ստանալ վճարումը։
+  update: Թարմացնել գրանցումը
+  delete_confirm: Վստա՞հ եք որ ուզում եք ջնջել ձեր գրանցումը։
+  delete_registration: Ջնջել գրանցումը
+  will_open_html: 'Առաջնության գրանցումը կբացվի <strong>%{days}</strong> օրից ժամը
+    %{time}:'
+  will_close_html: 'Առաջնության գրանցումը կփակվի <strong>%{days}</strong> օրից ժամը
+    %{time}:'
+  closed_html: 'Առաջնության գրանցումը փակվել է <strong>%{days}</strong> օր առաջ, ժամը
+    %{time}:'
