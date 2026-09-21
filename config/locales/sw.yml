@@ -1144,3 +1144,5 @@ users:
     new: 'Picha mpya ya wasifu:'
     save: Hifadhi
     reset: Rudisha
+  edit:
+    general: ''
